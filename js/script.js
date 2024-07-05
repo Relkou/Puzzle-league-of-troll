@@ -29,11 +29,6 @@ const startPos = [
   { x: 42, y: 19 }
 ];
 
-// Definir los sonidos
-const sonidoPuzzleCompleto = new Audio('./sound/enefecto.mp3');
-const sonidoPiezaSoltada = new Audio('./sound/claro.mp3');
-const sonidoClick = new Audio('./sound/no.mp3');
-
 // Función para reproducir el sonido de completar el puzzle
 function reproducirSonidoPuzzleCompleto() {
   sonidoPuzzleCompleto.currentTime = 0; // Reinicia el sonido si ya está reproduciéndose
